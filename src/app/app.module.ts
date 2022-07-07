@@ -9,7 +9,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { MainComponent } from './components/main/main.component';
 import { NavComponent } from './components/nav/nav.component';
-import { PlayComponent } from './components/play/play.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -20,7 +19,6 @@ import { PlayComponent } from './components/play/play.component';
     FooterComponent,
     MainComponent,
     NavComponent,
-    PlayComponent,
   ],
   bootstrap: [AppComponent],
 })
